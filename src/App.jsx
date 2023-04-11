@@ -1,5 +1,6 @@
 import LandingPage from "./components/LandingPage";
 import Nav from "./components/Nav";
+import About from "./components/About";
 
 export default function App() {
   return (
@@ -7,6 +8,8 @@ export default function App() {
 
       <Nav />
       <LandingPage />
+      <About/>
+
     </div>
   )
 }

@@ -10,8 +10,8 @@ const LandingPage = () => {
             <span className='relative top-14'>x</span>
             <img src="./senseback.svg" alt="" className='sm:h-36 sm:w-36 sm:mt-0 h-3 mt-16'/>
             </div>
-            <h1 className='flex flex-col sm:ml-16 text-center sm:text-left'> <span className='text-3xl sm:text-6xl'> Clash Of </span><span className='text-5xl sm:text-9xl impact'>Models</span></h1>
-            <div className='sm:absolute bottom-[25vh] left-16 flex gap-8 text-xl'>
+            <h1 className='flex flex-col sm:ml-16 text-center sm:text-left gap-3'> <span className='text-3xl sm:text-6xl'> Clash Of </span><span className='text-5xl sm:text-9xl impact headings'>Models</span></h1>
+            <div className='sm:absolute bottom-[125vh] left-16 flex gap-8 text-xl'>
                 <h2>Strategize</h2>
                 <ul className=' list-disc flex gap-8'>
                     <li>

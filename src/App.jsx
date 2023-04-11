@@ -1,6 +1,7 @@
 import LandingPage from "./components/LandingPage";
 import Nav from "./components/Nav";
 import About from "./components/About";
+import Timeline from "./components/Timeline";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Nav />
       <LandingPage />
       <About/>
+      <Timeline/>
 
     </div>
   )

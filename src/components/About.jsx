@@ -39,7 +39,7 @@ const About = () => {
         <br />
         <p className="text-white">Learn the basic of AI and Neural Networks and train your AI model car to race and win against your competitors. Don’t miss this chance to win exciting prizes and learn cool tech!
         (naukri chahiye? AI padho)</p>
-      </div>
+      </motion.div>
     </div>
   );
 };

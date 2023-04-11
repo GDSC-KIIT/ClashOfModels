@@ -33,7 +33,7 @@ const LandingPage = () => {
   
   return (
     <div
-      className="h-screen w-full flex items-center justify-center sm:justify-start flex-col gap-8 sm:flex-row"
+      className="h-screen w-full flex items-center relative justify-center sm:justify-start flex-col gap-8 sm:flex-row"
       style={{ background: "radial-gradient(circle, #FFD969, #FABB03)" }}
     >
       <motion.div
@@ -48,10 +48,10 @@ const LandingPage = () => {
         transition={{
           duration: 1,
         }}
-        className="absolute top-24 flex items-center gap-5"
+        className="top-24 absolute flex items-center gap-5"
       >
         <img src="./gdsc.svg" alt="" className="ml-24 h-44 w-44" />
-        <span className="relative text-xl">x</span>
+        <span className="text-xl">x</span>
         <img src="./senseback.svg" alt="" className="h-44 w-44" />
       </motion.div>
 
@@ -71,7 +71,7 @@ const LandingPage = () => {
       >
         {" "}
         <span className="text-3xl sm:text-7xl"> Clash Of </span>
-        <span className="text-5xl sm:text-9xl impact">Models</span>
+        <span className="text-5xl headings sm:text-9xl impact">Models</span>
       </motion.h1>
 
       <motion.div
@@ -86,7 +86,7 @@ const LandingPage = () => {
         transition={{
           duration: 1,
         }}
-        className="sm:absolute bottom-[25vh] left-24 flex gap-8 text-xl"
+        className="bottom-[25vh] absolute left-24 flex gap-8 text-xl"
       >
         <h2>Strategize</h2>
         <ul className=" list-disc flex gap-8">
@@ -112,7 +112,7 @@ const LandingPage = () => {
           duration: 1,
           delay: 2,
         }}
-        className="h-96 w-96 bg-[#7a05ff] rounded-full absolute right-[18vw]"
+        className="h-96 w-96 bg-[#7a05ff] rounded-full absolute right-[16vw]"
       />
       <motion.div
         initial={{
@@ -126,7 +126,7 @@ const LandingPage = () => {
         transition={{
           duration: 1,
         }}
-        className="h-96 w-96 rounded-full absolute right-[18vw] circle"
+        className="h-96 w-96 rounded-full absolute right-[16vw] circle"
       />
       <motion.svg
         viewBox="0 0 299 1024"

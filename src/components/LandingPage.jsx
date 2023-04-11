@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 
 import { motion } from "framer-motion";
 
@@ -19,84 +19,85 @@ const LandingPage = () => {
     },
   };
 
-  const [fill, setfill] = useState('')
+  const [fill, setfill] = useState("");
 
   useEffect(() => {
-    
-    const timeOut = setTimeout(()=>{
-        setfill("black")
-    },3000)
+    const timeOut = setTimeout(() => {
+      setfill("black");
+    }, 3000);
     return () => {
-      clearTimeout(timeOut)
-    }
-  }, [])
-  
+      clearTimeout(timeOut);
+    };
+  }, []);
+
   return (
     <div
-      className="h-screen w-full flex items-center relative justify-center sm:justify-start flex-col gap-8 sm:flex-row"
+      className="h-screen w-full flex items-center relative sm:justify-start flex-col gap-20 sm:flex-row pt-24"
       style={{ background: "radial-gradient(circle, #FFD969, #FABB03)" }}
     >
-      <motion.div
-        initial={{
-          opacity: 0,
-          x: -100,
-        }}
-        animate={{
-          opacity: 1,
-          x: 0,
-        }}
-        transition={{
-          duration: 1,
-        }}
-        className="top-14 absolute flex items-center gap-5"
-      >
-        <img src="./gdsc.svg" alt="" className="ml-24 h-44 w-44" />
-        <span className="text-xl">x</span>
-        <img src="./senseback.svg" alt="" className="h-44 w-44" />
-      </motion.div>
+      <div className=" sm:pl-32 sm:pt-5 items-center sm:items-start gap-20 sm:gap-10 relative top-0 flex flex-col h-full">
+        <motion.div
+          initial={{
+            opacity: 0,
+            x: -100,
+          }}
+          animate={{
+            opacity: 1,
+            x: 0,
+          }}
+          transition={{
+            duration: 1,
+          }}
+          className="flex flex-col sm:flex-row items-center sm:gap-5"
+        >
+          <img src="./gdsc.svg" alt="" className="h-5 w-auto" />
+          <span className="text-xl">x</span>
+          <img src="./senseback.svg" alt="" className="h-5 w-auto" />
+        </motion.div>
 
-      <motion.h1
-        initial={{
-          opacity: 0,
-          x: -100,
-        }}
-        animate={{
-          opacity: 1,
-          x: 0,
-        }}
-        transition={{
-          duration: 1,
-        }}
-        className="flex flex-col sm:ml-24 text-center sm:text-left gap-1 mb-10"
-      >
-        <span className="text-3xl sm:text-7xl"> Clash Of </span>
-        <span className="text-5xl headings sm:text-9xl impact">Models</span>
-      </motion.h1>
+        <motion.h1
+          initial={{
+            opacity: 0,
+            x: -100,
+          }}
+          animate={{
+            opacity: 1,
+            x: 0,
+          }}
+          transition={{
+            duration: 1,
+          }}
+          className="flex flex-col text-center sm:text-left gap-1"
+        >
+          <span className="text-3xl sm:text-7xl"> Clash Of </span>
+          <span className="text-5xl headings sm:text-9xl impact">Models</span>
+        </motion.h1>
 
-      <motion.div
-        initial={{
-          opacity: 0,
-          x: -100,
-        }}
-        animate={{
-          opacity: 1,
-          x: 0,
-        }}
-        transition={{
-          duration: 1,
-        }}
-        className="bottom-[30vh] absolute left-24 flex gap-8 text-xl"
-      >
-        <h2>Strategize</h2>
-        <ul className=" list-disc flex gap-8">
-          <li>
-            <h2>Train</h2>
-          </li>
-          <li>
-            <h2>Race</h2>
-          </li>
-        </ul>
-      </motion.div>
+        <motion.div
+          initial={{
+            opacity: 0,
+            x: -100,
+          }}
+          animate={{
+            opacity: 1,
+            x: 0,
+          }}
+          transition={{
+            duration: 1,
+          }}
+          className="bottom-[25vh]  left-24 flex gap-8 text-xl"
+        >
+          <h2>Strategize</h2>
+          <ul className=" list-disc flex gap-8">
+            <li>
+              <h2>Train</h2>
+            </li>
+            <li>
+              <h2>Race</h2>
+            </li>
+          </ul>
+        </motion.div>
+      </div>
 
       <motion.div
         initial={{
@@ -111,7 +112,7 @@ const LandingPage = () => {
           duration: 1,
           delay: 2,
         }}
-        className="h-96 w-96 bg-[#7a05ff] rounded-full absolute right-[10vw]"
+        className="h-96 w-96 bg-[#7a05ff] hidden sm:block rounded-full absolute right-[10vw]"
       />
       <motion.div
         initial={{
@@ -125,13 +126,13 @@ const LandingPage = () => {
         transition={{
           duration: 1,
         }}
-        className="h-96 w-96 rounded-full absolute right-[10vw] circle"
+        className="h-96 w-96 rounded-full hidden sm:block absolute right-[10vw] circle"
       />
       <motion.svg
         viewBox="0 0 299 1024"
         fill="none"
         preserveAspectRatio="xMidYMax meet"
-        className="h-screen w-full absolute left-[25vw] scale-150"
+        className="h-screen w-full absolute hidden sm:block left-[25vw] scale-150"
       >
         <motion.path
           initial="hidden"

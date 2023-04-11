@@ -17,7 +17,7 @@ const Nav = () => {
       }}
       className="absolute w-full apple text-xl mt-5 z-10"
     >
-      <ul className="sm:flex justify-center gap-14 hidden text-[16px]">
+      <ul className="sm:flex justify-center gap-10 hidden text-[16px] mori">
         <div className="sm:h-32 sm:w-32 md:w-[7rem] absolute sm:left-16 md:left-9">
           <img src="./clashlogo.svg" alt="" className="" />
         </div>

@@ -51,7 +51,7 @@ const LandingPage = () => {
           className="flex flex-col sm:flex-row items-center sm:gap-5"
         >
           <img src="./gdsc.svg" alt="" className="h-5 w-auto" />
-          <span className="text-xl">x</span>
+          <img src="./x.png" alt="x" className="h-3" />
           <img src="./senseback.svg" alt="" className="h-5 w-auto" />
         </motion.div>
 
@@ -69,8 +69,8 @@ const LandingPage = () => {
           }}
           className="flex flex-col text-center sm:text-left gap-1"
         >
-          <span className="text-3xl sm:text-7xl"> Clash Of </span>
-          <span className="text-5xl headings sm:text-9xl impact">Models</span>
+          <span className="text-3xl sm:text-7xl dark-gray clash-light"> Clash Of </span>
+          <span className="text-5xl headings sm:text-9xl clash-bold">Models</span>
         </motion.h1>
 
         <motion.div
@@ -87,7 +87,7 @@ const LandingPage = () => {
           }}
           className="bottom-[25vh]  left-24 flex gap-8 text-xl"
         >
-          <h2>Strategize</h2>
+          {/* <h2>Strategize</h2>
           <ul className=" list-disc flex gap-8">
             <li>
               <h2>Train</h2>
@@ -95,7 +95,9 @@ const LandingPage = () => {
             <li>
               <h2>Race</h2>
             </li>
-          </ul>
+          </ul> */}
+
+          <p className="tagline text-md mt-[-1.5rem]">Strategize - Train - Race</p>
         </motion.div>
       </div>
 

@@ -27,17 +27,17 @@ const About = () => {
         initial='hidden'
         whileInView='show'
         
-      src="./aboutpic.svg" className=" h-[35vw] w-[35vw]" alt="" />
+      src="./aboutpic1.svg" className=" h-[35vw] w-[35vw]" alt="" />
       <motion.div
       variants={slideIn('right')}
       initial='hidden'
       whileInView='show'
-      className=" px-10 items-center sm:items-start text-center sm:text-left flex flex-col gap-1">
-        <span className="text-white apple text-3xl ">What is </span>
-        <h2 className="headings impact">Clash of Models?</h2>
-        <p className="text-white">GDSC KIIT presents to you it’s newest event: ‘Clash of Models’. Made for absolute beginners, it focuses on building the intuition required for AI/ML and how to use that moving forward.</p>
+      className="px-20 items-center sm:items-start text-center sm:text-left flex flex-col gap-1">
+        <span className="text-white text-3xl satoshi">What is </span>
+        <h2 className="headings satoshi mt-[-20px]">Clash of Models?</h2>
+        <p className="text-white mori">GDSC KIIT presents to you it’s newest event: ‘Clash of Models’. Made for absolute beginners, it focuses on building the intuition required for AI/ML and how to use that moving forward.</p>
         <br />
-        <p className="text-white">Learn the basic of AI and Neural Networks and train your AI model car to race and win against your competitors. Don’t miss this chance to win exciting prizes and learn cool tech!
+        <p className="text-white mori">Learn the basic of AI and Neural Networks and train your AI model car to race and win against your competitors. Don’t miss this chance to win exciting prizes and learn cool tech!
         (naukri chahiye? AI padho)</p>
       </motion.div>
     </div>

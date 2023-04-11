@@ -97,7 +97,9 @@ const LandingPage = () => {
             </li>
           </ul> */}
 
-          <p className="tagline text-md mt-[-1.5rem]">Strategize - Train - Race</p>
+          <p className="tagline text-md mt-[-2.5rem]">Strategize - Train - Race</p>
+
+          <a className="text-white bg-purple-800 absolute mt-4 cursor-pointer py-2 px-6 uppercase satoshi text-base hover:bg-purple-700">Register Now</a>
         </motion.div>
       </div>
 

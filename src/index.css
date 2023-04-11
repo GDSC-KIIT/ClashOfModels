@@ -11,3 +11,7 @@
 .impact{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.navelements:hover{
+  text-shadow: 1px 1px #ffff;
+}

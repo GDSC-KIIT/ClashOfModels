@@ -48,7 +48,7 @@ const LandingPage = () => {
         transition={{
           duration: 1,
         }}
-        className="top-24 absolute flex items-center gap-5"
+        className="top-14 absolute flex items-center gap-5"
       >
         <img src="./gdsc.svg" alt="" className="ml-24 h-44 w-44" />
         <span className="text-xl">x</span>
@@ -67,9 +67,8 @@ const LandingPage = () => {
         transition={{
           duration: 1,
         }}
-        className="flex flex-col sm:ml-24 text-center sm:text-left"
+        className="flex flex-col sm:ml-24 text-center sm:text-left gap-1 mb-10"
       >
-        {" "}
         <span className="text-3xl sm:text-7xl"> Clash Of </span>
         <span className="text-5xl headings sm:text-9xl impact">Models</span>
       </motion.h1>
@@ -86,7 +85,7 @@ const LandingPage = () => {
         transition={{
           duration: 1,
         }}
-        className="bottom-[25vh] absolute left-24 flex gap-8 text-xl"
+        className="bottom-[30vh] absolute left-24 flex gap-8 text-xl"
       >
         <h2>Strategize</h2>
         <ul className=" list-disc flex gap-8">
@@ -112,7 +111,7 @@ const LandingPage = () => {
           duration: 1,
           delay: 2,
         }}
-        className="h-96 w-96 bg-[#7a05ff] rounded-full absolute right-[16vw]"
+        className="h-96 w-96 bg-[#7a05ff] rounded-full absolute right-[10vw]"
       />
       <motion.div
         initial={{
@@ -126,13 +125,13 @@ const LandingPage = () => {
         transition={{
           duration: 1,
         }}
-        className="h-96 w-96 rounded-full absolute right-[16vw] circle"
+        className="h-96 w-96 rounded-full absolute right-[10vw] circle"
       />
       <motion.svg
         viewBox="0 0 299 1024"
         fill="none"
         preserveAspectRatio="xMidYMax meet"
-        className="h-screen w-full absolute left-[20vw] scale-150"
+        className="h-screen w-full absolute left-[25vw] scale-150"
       >
         <motion.path
           initial="hidden"

@@ -28,3 +28,12 @@
 ::-webkit-scrollbar{
   display: none;
 }
+
+.abt::before{
+  content: '';
+  position: absolute;
+  height: 30vh;
+  width: 100%;
+  background: linear-gradient(black,transparent);
+  top:0;
+}

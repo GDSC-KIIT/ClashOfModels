@@ -17,7 +17,7 @@ const Nav = () => {
         }}
         className='absolute w-full apple text-xl mt-5'>
             <ul className='sm:flex justify-center gap-14 hidden'>
-                <div className='h-32 w-32 absolute left-16'>
+                <div className='sm:h-32 sm:w-32 md:h-24 md:w-24 absolute sm:left-16 md:left-9'>
                 <img src="./clashlogo.svg" alt="" />
             </div>
                 <li className='navelements cursor-pointer relative z-10'>Sponsors</li>

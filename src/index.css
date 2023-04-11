@@ -18,3 +18,9 @@
 .circle{
   border: 5px solid #7a05ff;
 }
+.headings{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#7A05FF, #5d1c8c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

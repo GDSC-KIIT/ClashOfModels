@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Satoshi-Variable';
+    src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
+         url('../fonts/Satoshi-Variable.woff') format('woff'),
+         url('../fonts/Satoshi-Variable.ttf') format('truetype');
+         font-weight: 300 900;
+         font-display: swap;
+         font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Clash-Display';
+    src: url("../fonts/ClashDisplay-Variable.ttf") format("truetype");
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mori-Gothic';
+    src: url("../fonts/MoriGothic-Normal.ttf") format("truetype");
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Righteous';
+    src: url("../fonts/Righteous-Regular.ttf") format("truetype");
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: normal;
+}

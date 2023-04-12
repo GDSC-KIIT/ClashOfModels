@@ -31,7 +31,7 @@ const About = () => {
         alt=""
       />
       <motion.p
-        variants={slideIn("left")}
+        variants={slideIn("right")}
         initial="hidden"
         whileInView="show"
         className="items-center sm:items-start text-center sm:text-left flex flex-col gap-1"

@@ -20,20 +20,20 @@ const LandingPage = () => {
   };
   const btn = {
     hidden: {
-      opacity:0,
-      scale:0
+      opacity: 0,
+      scale: 0,
     },
     visible: {
       opacity: 1,
-      scale:0.8,
+      scale: 0.8,
       transition: {
-        duration: 1,
+        duration: 0.3,
         ease: "easeOut",
       },
     },
-    hover:{
-      scale:1
-    }
+    hover: {
+      scale: 1,
+    },
   };
 
   const [fill, setfill] = useState("");
@@ -136,18 +136,23 @@ const LandingPage = () => {
           className="flex text-center mt-3 gap-2 text-lg"
         >
           <div className="flex items-center gap-2">
-          <img src="./loc.svg" className="h-4 w-4 " alt="" />
-          <span className="satoshi text-base">15th April, 2023 - KIIT UNIVERSITY</span>
+            <img src="./loc.svg" className="h-4 w-4 " alt="" />
+            <span className="satoshi text-base">
+              15th April, 2023 - KIIT UNIVERSITY
+            </span>
           </div>
         </motion.div>
-        <motion.button
-        variants={btn}
-        initial="hidden"
-        whileInView="visible"
-        whileHover="hover"
-        className="text-white bg-purple-800 relative z-10 mt-4 cursor-pointer py-2 px-6 uppercase satoshi rounded-lg  text-sm hover:bg-purple-700">
-          Register Now
-        </motion.button>
+        <a href="https://gdsc.community.dev/events/details/developer-student-clubs-kalinga-institute-of-industrial-technology-bhubaneswar-presents-clash-of-models-strategize-train-race/">
+          <motion.button
+            variants={btn}
+            initial="hidden"
+            whileInView="visible"
+            whileHover="hover"
+            className="text-white bg-purple-800 relative z-10 mt-4 cursor-pointer py-2 px-6 uppercase satoshi rounded-lg  text-sm hover:bg-purple-700"
+          >
+            Register Now
+          </motion.button>
+        </a>
       </div>
 
       <motion.div

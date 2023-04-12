@@ -109,13 +109,13 @@ const LandingPage = () => {
           }}
           className="left-24 flex gap-8 text-xl"
         >
-          <h2 className="uppercase">Strategize</h2>
+          <h2 className="uppercase satoshi">Strategize</h2>
           <ul className=" list-disc flex gap-8">
             <li>
-              <h2 className="uppercase">Train</h2>
+              <h2 className="uppercase satoshi">Train</h2>
             </li>
             <li>
-              <h2 className="uppercase">Race</h2>
+              <h2 className="uppercase satoshi">Race</h2>
             </li>
           </ul>
 
@@ -135,8 +135,10 @@ const LandingPage = () => {
           }}
           className="flex text-center mt-3 gap-2 text-lg"
         >
-          <img src="./loc.svg" className="h-7 w-7 " alt="" />
-          <span>15th April, 2023 - KIIT UNIVERSITY</span>
+          <div className="flex items-center gap-2">
+          <img src="./loc.svg" className="h-4 w-4 " alt="" />
+          <span className="satoshi text-base">15th April, 2023 - KIIT UNIVERSITY</span>
+          </div>
         </motion.div>
         <motion.button
         variants={btn}

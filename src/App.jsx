@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
+import { Rules } from "./components/Rules";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <LandingPage />
       <About/>
       <Timeline/>
+      <Rules />
       <Footer/>
     </div>
   )

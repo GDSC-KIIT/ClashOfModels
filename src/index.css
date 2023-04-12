@@ -73,6 +73,7 @@
 }
 
 .box-bg {
-    background: rgba(115, 115, 115, 0.2);
+    /* background: rgba(208, 208, 208, 0.21); */
+    box-shadow: #ffd969 2px 2px 10px 2px;
     border-radius: 10px;
 }

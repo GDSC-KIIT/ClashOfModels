@@ -3,7 +3,9 @@ import {motion} from "framer-motion"
 
 const Sponsor = () => {
   return (
-    <div className=" h-fit md:h-screen w-full bg flex flex-col items-center justify-evenly gap-5 pb-8">
+    <div
+    id="sponsors"
+    className=" h-fit md:h-screen w-full bg flex flex-col items-center justify-evenly gap-5 pb-8">
         <motion.h2
         initial={{
           y: -10,

@@ -5,7 +5,9 @@ import Line from "./Line";
 
 const Timeline = () => {
   return (
-    <div className="h-fit pb-20 bg relative pt-2 w-full flex flex-col items-center justify-center px-10 gap-24">
+    <div 
+    id="timeline"
+    className="h-fit pb-20 bg relative pt-2 w-full flex flex-col items-center justify-center px-10 gap-24">
 
       <motion.h2
         initial={{

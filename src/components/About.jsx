@@ -19,6 +19,7 @@ const About = () => {
   });
   return (
     <div
+    id="about"
       className="h-fit bg sm:h-screen w-full pt-24 sm:pt-0 flex flex-col sm:flex-row relative pb-10 justify-around items-center px-7 gap-24 abt"
 
     >

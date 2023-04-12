@@ -6,7 +6,9 @@ import second from "../../public/second.svg";
 import third from "../../public/third.svg";
 const Prizes = () => {
   return (
-    <div className="h-fit pb-20 bg relative pt-2 w-full flex flex-col items-center justify-center px-10 gap-24">
+    <div 
+    id="prizes"
+    className="h-fit pb-20 bg relative pt-2 w-full flex flex-col items-center justify-center px-10 gap-24">
       <motion.h2
         initial={{
           y: -10,
@@ -26,9 +28,9 @@ const Prizes = () => {
         Prizes
       </motion.h2>
       <div className="flex flex-wrap gap-8 justify-center items-center mt-[-2rem]">
-        <PrizeCard img={first} title="WINNER" price="5,000" />
-        <PrizeCard img={second} title="FIRST RUNNER UP" price="5,000" />
-        <PrizeCard img={third} title="SECOND RUNNER UP" price="5,000" />
+        <PrizeCard img={first} title="WINNER" price="2,500" />
+        <PrizeCard img={second} title="FIRST RUNNER UP" price="1,500" />
+        <PrizeCard img={third} title="SECOND RUNNER UP" price="1,000" />
       </div>
     </div>
   );

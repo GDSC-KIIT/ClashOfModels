@@ -2,7 +2,9 @@ import React from "react";
 
 export const Rules = () => {
   return (
-    <div className=" flex flex-col justify-center w-[100vw] mx-auto bg">
+    <div 
+    id="rules"
+    className=" flex flex-col justify-center w-[100vw] mx-auto bg">
       <h1 className="text-center pt-5 text-glow text-5xl md:text-6xl font-semibold clash-bold headings pb-1">
         Rules
       </h1>

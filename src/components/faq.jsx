@@ -3,8 +3,10 @@ import { DisclosureComponent } from "./faqDisclose";
 
 export const FAQ = () => {
   return (
-    <div className="px-[20vw] bg" id="faqs">
-      <h1 className="text-center text-glow text-4xl md:text-6xl max-w-[15ch] mx-auto font-semibold text-white pb-8 headings clash-bold">
+    <div
+    id="faq"
+    className="px-[20vw] bg">
+      <h1 className="text-center text-glow text-2xl md:text-6xl max-w-[15ch] mx-auto font-semibold text-white pb-8 headings clash-bold">
         Any Questions?
       </h1>
       <div className=" rounded-2xl transition-all delay-100 ease-in py-24">

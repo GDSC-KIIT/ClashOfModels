@@ -153,7 +153,7 @@ const LandingPage = () => {
           opacity: 0,
           scale: 0,
         }}
-        whileInView={{
+        animate={{
           opacity: 1,
           scale: 1,
         }}

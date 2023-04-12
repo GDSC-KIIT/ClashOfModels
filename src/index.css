@@ -1,4 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap'); */
+
 @import url('./assets/fonts/css/clash-display.css');
 @tailwind base;
 @tailwind components;
@@ -67,7 +68,11 @@
     top: 0;
 }
 
-.bg{
-    
-background: linear-gradient(90deg, rgba(44,1,75,1) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(44,1,75,1) 100%);
+.bg {
+    background: linear-gradient(90deg, rgba(44, 1, 75, 1) 0%, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, rgba(44, 1, 75, 1) 100%);
+}
+
+.box-bg {
+    background: rgba(115, 115, 115, 0.2);
+    border-radius: 10px;
 }

@@ -10,6 +10,21 @@ import { motion } from "framer-motion";
 const Footer=()=>{
     return(
         <div className="py-4" style={{ background: "radial-gradient(circle, #FFD969, #FABB03)" }}>
+
+        <motion.div
+        initial={{
+
+            y: 80,
+        opacity: 0,
+    }}
+      whileInView={{
+          y: 0,
+          opacity: 1,
+        }}
+        transition={{
+            duration: 1,
+        }}
+        className="py-4" style={{ background: "radial-gradient(circle, #FFD969, #FABB03)" }}>
             <div className="top flex justify-between items-center gap-10 w-full px-10">
                 <img src={logo} alt="reward logo" className="md:w-[12rem] w-[8rem]"/>
                 <div>
@@ -38,6 +53,7 @@ const Footer=()=>{
             </div>
 
 
+        </motion.div>
         </div>
 
     );

@@ -1,9 +1,24 @@
 import React from "react";
+import {motion} from "framer-motion"
 
 const Sponsor = () => {
   return (
     <div className=" h-fit md:h-screen w-full bg flex flex-col items-center justify-evenly gap-5 pb-8">
-      <h1 className="clash-bold headings mb-16 md:mb-0 text-md">Our Sponsors</h1>
+        <motion.h2
+        initial={{
+          y: -10,
+          opacity: 0,
+        }}
+        whileInView={{
+          y: 0,
+          opacity: 1,
+        }}
+        transition={{
+          duration: 1,
+          type: "spring",
+          delay: 0.5,
+        }}
+       className="clash-bold headings mb-16 md:mb-0 text-md">Our Sponsors</motion.h2>
       <div className="flex flex-col gap-14">
         <div className="flex flex-col md:flex-row md:gap-32 gap-14 items-center justify-center">
           <img

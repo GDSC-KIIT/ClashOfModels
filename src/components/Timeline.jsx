@@ -25,14 +25,12 @@ const Timeline = () => {
       >
         Timeline
       </motion.h2>
-      <div className="w-fit">
-        <Line time="10:00 AM" desc="Breakiasdfng down AI" />
-        <Line time="10:00 AM" desc="Breaking down AI" />
-        <Line time="10:00 AM" desc="Breakiasdfng down AI" />
-        <Line time="10:00 AM" desc="Breaking down AI" />
-        <Line time="10:00 AM" desc="BreaasdfsSking down AI" />
-        <Line time="10:00 AM" desc="Breakadsfing down AI" />
-        <Line time="10:00 AM" desc="Breaking down AI" />
+      <div className="w-fit text-lg">
+        <Line time="10:00 AM" desc="Introducing Clash of Models" />
+        <Line time="11:00 AM" desc="Breaking Down AI and Reinforcement Learning" />
+        <Line time="12:30 PM" desc="Diving into rewards.ai" />
+        <Line time="2:00 PM" desc="FAQs and Lunch Break" />
+        <Line time="3:00 PM" desc="Get! Set! Ready? RACE!" />
         <motion.div
           initial={{
             y: -10,
@@ -48,12 +46,12 @@ const Timeline = () => {
           }}
           className="flex gap-1 w-fit justify-center text-sm sm:text-base text-white"
         >
-          <div className="w-[40vw] mt-2 text-right pr-5 "></div>
+          <div className="w-[40vw] mt-2 text-right pr-5 ">5:00 PM</div>
           <div className="flex flex-col items-center gap-2 w-[20vw]] mt-2    ">
             <div className="bg-white h-6 w-6 rounded-full" />
             <div className="h-16 w-[0.1rem] bg-black"></div>
           </div>
-          <div className="w-[40vw] mt-2 pl-5"></div>
+          <div className="w-[40vw] mt-2 pl-5">Winners Declaration</div>
         </motion.div>
       </div>
     </div>

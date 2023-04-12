@@ -3,11 +3,11 @@ import React from "react";
 export const Rules = () => {
   return (
     <div className=" flex flex-col justify-center w-[100vw] mx-auto bg">
-      <h1 className="text-center pt-5 text-glow text-5xl md:text-6xl font-semibold clash-bold headings pb-1">
+      <h1 className="text-center text-glow text-5xl md:text-6xl font-semibold satoshi headings pb-1">
         Rules
       </h1>
       <div className="mx-4 md:my-12">
-        <ul className="pl-10 pb-20 pt-10 text-xl pr-5 xs:leading-3 font-Mori list-disc flex flex-col gap-8 max-w-3xl mx-auto leading-7 text-white/80">
+        <ul className="pl-10 text-xl font-Mori list-disc flex flex-col gap-4 max-w-3xl mx-auto leading-7 text-white/80 mori">
           <li>Participants are requested to show up at the venue on time.</li>
           <li>
           The session will start at 10AM, after which we will not be responsible for bringing any participants up to speed.

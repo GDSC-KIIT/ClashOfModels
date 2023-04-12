@@ -10,7 +10,7 @@ const Timeline = () => {
         </div>
         <div className="flex">
 
-        <div className="flex flex-col gap-64 sm:gap-44 mt-40 text-right sm:mt-24">
+        <div className="flex flex-col gap-64 sm:gap-44 mt-40 text-right sm:mt-24 mori">
 
         <TimeElements time="1:30 PM" desc="FAQ Session"/>  
         <TimeElements time="10:00 AM" desc="Introduction to rewards.ai"/>  

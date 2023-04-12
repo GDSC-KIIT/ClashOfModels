@@ -1,17 +1,17 @@
 import React from "react";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 
 const About = () => {
-  const slideIn =  (direction) => ({
+  const slideIn = (direction) => ({
     hidden: {
-      x: direction === 'left' ? '-100%' : '100%',
-      opacity:0,
+      x: direction === "left" ? "-100%" : "100%",
+      opacity: 0,
     },
     show: {
       x: 0,
-      opacity:1,
+      opacity: 1,
       transition: {
-        type: 'spring',
+        type: "spring",
         duration: 1.8,
         delay: 0.3,
       },
@@ -19,28 +19,37 @@ const About = () => {
   });
   return (
     <div
-    id="about"
+      id="about"
       className="h-fit bg sm:h-screen w-full pt-24 sm:pt-0 flex flex-col sm:flex-row relative pb-10 justify-around items-center px-7 gap-24 abt"
-
     >
-      <motion.img 
-        variants={slideIn('left')}
-        initial='hidden'
-        whileInView='show'
-        
-      src="./aboutpic1.svg" className=" h-[35vw] w-[35vw]" alt="" />
-      <motion.div
-      variants={slideIn('right')}
-      initial='hidden'
-      whileInView='show'
-      className="px-20 items-center sm:items-start text-center sm:text-left flex flex-col gap-1">
+      <motion.img
+        variants={slideIn("left")}
+        initial="hidden"
+        whileInView="show"
+        src="./aboutpic1.svg"
+        className=" h-[35vw] w-[35vw]"
+        alt=""
+      />
+      <motion.p
+        variants={slideIn("left")}
+        initial="hidden"
+        whileInView="show"
+        className="items-center sm:items-start text-center sm:text-left flex flex-col gap-1"
+      >
         <span className="text-white text-3xl satoshi">What is </span>
         <h2 className="headings satoshi mt-[-20px]">Clash of Models?</h2>
-        <p className="text-white mori">GDSC KIIT presents to you it’s newest event: ‘Clash of Models’. Made for absolute beginners, it focuses on building the intuition required for AI/ML and how to use that moving forward.</p>
+        <p className="text-white mori">
+          GDSC KIIT presents to you it’s newest event: ‘Clash of Models’. Made
+          for absolute beginners, it focuses on building the intuition required
+          for AI/ML and how to use that moving forward.
+        </p>
         <br />
-        <p className="text-white mori">Learn the basic of AI and Neural Networks and train your AI model car to race and win against your competitors. Don’t miss this chance to win exciting prizes and learn cool tech!
-        (naukri chahiye? AI padho)</p>
-      </motion.div>
+        <p className="text-white mori">
+          Learn the basic of AI and Neural Networks and train your AI model car
+          to race and win against your competitors. Don’t miss this chance to
+          win exciting prizes and learn cool tech! (naukri chahiye? AI padho)
+        </p>
+      </motion.p>
     </div>
   );
 };

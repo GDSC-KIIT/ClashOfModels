@@ -5,11 +5,11 @@ export const FAQ = () => {
   return (
     <div
     id="faq"
-    className="px-[20vw] bg">
-      <h1 className="text-center text-glow text-2xl md:text-6xl max-w-[15ch] mx-auto font-semibold text-white pb-8 headings clash-bold">
+    className="px-4 md:px-[20vw] bg">
+      <h1 className="text-center text-glow text-[1.2rem] leading-none md:text-6xl max-w-[15ch] mx-auto font-semibold text-white pb-8 headings clash-bold">
         Any Questions?
       </h1>
-      <div className=" rounded-2xl transition-all delay-100 ease-in py-24">
+      <div className=" rounded-2xl transition-all delay-100 ease-in pt-6 pb-24">
         <DisclosureComponent
           heading={"I do not know about AI, can I still participate?"}
         >

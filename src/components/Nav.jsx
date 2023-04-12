@@ -26,27 +26,27 @@ const Nav = () => {
             About
           </li>
         </a>
-        <a href="timeline">
+        <a href="#timeline">
           <li className="cursor-pointer relative z-10 opacity-70 hover:opacity-100">
             Timeline
           </li>
         </a>
-        <a href="sponsors">
+        <a href="#sponsors">
           <li className="cursor-pointer relative z-10 opacity-70 hover:opacity-100">
             Sponsors
           </li>
         </a>
-        <a href="prizes">
+        <a href="#prizes">
           <li className="cursor-pointer relative z-10 opacity-70 hover:opacity-100">
             Prizes
           </li>
         </a>
-        <a href="rules">
+        <a href="#rules">
           <li className="cursor-pointer relative z-10 opacity-70 hover:opacity-100">
             Rules
           </li>
         </a>
-        <a href="faq">
+        <a href="#faq">
           <li className="cursor-pointer relative z-10 opacity-70 hover:opacity-100">
             FAQs
           </li>

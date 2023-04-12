@@ -9,86 +9,56 @@ export const FAQ = () => {
       </h1>
       <div className=" rounded-2xl transition-all delay-100 ease-in py-24">
         <DisclosureComponent
-          heading={"Where and how to register for DevSprint '22?"}
-        >
-          <p>Registrations are being accepted via the Devfolio website.</p>
-        </DisclosureComponent>
-        <DisclosureComponent
-          heading={"Do I need to pay a registration fee for the hackathon?"}
+          heading={"I do not know about AI, can I still participate?"}
         >
           <p>
-            Like all our other events, DevSprint is also free-of-cost and you
-            don’t need to pay anything to register for it. We plan to keep all
-            of our future events free too.
+            The primary objective for Clash of Models is to help people grasp
+            the basics of artificial intelligence. We’ve got you even if you
+            don’t know much about AI.
           </p>
         </DisclosureComponent>
-        <DisclosureComponent
-          heading={"Can students outside KIIT participate in DevSprint '22?"}
-        >
+        <DisclosureComponent heading={"What will be the overall timings"}>
           <p>
-            No, this hackathon is exclusively for students at KIIT University.
+            There will be a brief session from 10AM which will help you grasp
+            the fundamentals of AI, following which, we will have a
+            mini-hackathon. The event is likely to end by 5PM
           </p>
         </DisclosureComponent>
-        <DisclosureComponent
-          heading={
-            "Are there any solo events under DevSprint '22 or do I need to team up?"
-          }
-        >
+        <DisclosureComponent heading={"How do I register?"}>
           <p>
-            Team up! Each team can have a minimum of 2 and maximum of 5 members.
-            Each team should have one team leader, who will be responsible for
-            forwarding all necessary information to his/her team.
+            The registrations will be on our community page, the link for which
+            will be provided shortly
           </p>
         </DisclosureComponent>
-        <DisclosureComponent
-          heading={
-            "If we have an idea, should that be fully working, or can it have some margin for further development?"
-          }
-        >
+        <DisclosureComponent heading={"Is there a fee or is the event free?"}>
           <p>
-            The entirety of your idea need not be fully implemented. However,
-            the submission should be functional so that it can be reviewed by
-            the judges.
+            There is absolutely no fee for registering and participating. All we
+            want is for people to come and enjoy while learning something new.
           </p>
         </DisclosureComponent>
-        <DisclosureComponent
-          heading={
-            "Can DevSprint '22 environment allow us to code in any language or will there be an IDE and  DB provided to us?"
-          }
-        >
+        <DisclosureComponent heading={"What is Rewards AI?"}>
           <p>
-            Any language. Make sure you constantly update your GitHub repository
-            comprising your project and submit its link. Update the README.md
-            with all the details about your application and the instructions to
-            run the code.
-          </p>
-        </DisclosureComponent>
-        <DisclosureComponent
-          heading={"What is the mode of organization of the hackathon?"}
-        >
-          <p>This will be a completely offline hackathon.</p>
-        </DisclosureComponent>
-        <DisclosureComponent
-          heading={"Will there be a demonstration of my creation?"}
-        >
-          <p>
-            The top 7 teams, qualifying for the 2nd round will get the
-            opportunity to present their work/project to the judges.
+            Rewards AI is a low-code artificial intelligence platform developed
+            at GDSC KIIT, which currently has two products for reinforcement
+            learning. The first product is our SDK, which allows users to go one
+            step further in customising their models using our python library.
+            In the Rewards Platform, users do not have to worry about
+            programming anything, and can put focus completely on building their
+            model. Rewards AI is a low-code artificial intelligence platform
+            developed at GDSC KIIT, which currently has two products for
+            reinforcement learning
           </p>
         </DisclosureComponent>
         <DisclosureComponent
           heading={
-            "Who will own the Intellectual Property (IP) rights of the projects that we build?"
+            "What is the winning criteria?"
           }
         >
           <p>
-            The developer(s) will have all the rights to own the IP of the
-            product. However, all the code needs to be in the public domain
-            (open source) as mentioned earlier. so that it can be thoroughly
-            evaluated by the judges.
+          The winning criteria totally depends on whether the participant's car can finish till the end of the race track or not. If we observe that none of the participants are able to finish off the race track then we will evaluate based on which car has driven farthest in the evaluation race track. If we see several  participants are able to finish to the end of track then we will evaluate on the time required to finish the track. 
           </p>
         </DisclosureComponent>
-        <DisclosureComponent
+                <DisclosureComponent
           heading={"In case of further doubts, how do I approach?"}
         >
           <p>

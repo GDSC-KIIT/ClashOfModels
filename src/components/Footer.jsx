@@ -30,7 +30,7 @@ const Footer=()=>{
                     <a href="https://github.com/GDSC-KIIT">
                         <img src={github} alt="github" />
                     </a>
-                    <a href="#">
+                    <a href="https://medium.com/dsckiit">
                         <img src={medium} alt="medium" />
                     </a>
                     

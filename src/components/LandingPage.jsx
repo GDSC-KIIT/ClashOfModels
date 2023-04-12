@@ -18,6 +18,23 @@ const LandingPage = () => {
       },
     },
   };
+  const btn = {
+    hidden: {
+      opacity:0,
+      scale:0
+    },
+    visible: {
+      opacity: 1,
+      scale:0.8,
+      transition: {
+        duration: 1,
+        ease: "easeOut",
+      },
+    },
+    hover:{
+      scale:1
+    }
+  };
 
   const [fill, setfill] = useState("");
 
@@ -35,20 +52,20 @@ const LandingPage = () => {
       className="h-screen w-full flex items-center relative sm:justify-start flex-col gap-20 sm:flex-row pt-24"
       style={{ background: "radial-gradient(circle, #FFD969, #FABB03)" }}
     >
-      <div className=" sm:pl-32 sm:pt-5 items-center sm:items-start gap-20 sm:gap-10 relative top-0 flex flex-col h-full">
+      <div className=" sm:pl-32 sm:pt-5 items-center sm:items-start gap-20 sm:gap-3 relative top-0 flex flex-col h-full">
         <motion.div
           initial={{
             opacity: 0,
             x: -100,
           }}
-          animate={{
+          whileInView={{
             opacity: 1,
             x: 0,
           }}
           transition={{
             duration: 1,
           }}
-          className="flex flex-col sm:flex-row items-center sm:gap-5"
+          className="flex flex-col sm:flex-row items-center sm:gap-5 sm:mb-10"
         >
           <img src="./gdsc.svg" alt="" className="h-5 w-auto" />
           <img src="./x.png" alt="x" className="h-3" />
@@ -60,7 +77,7 @@ const LandingPage = () => {
             opacity: 0,
             x: -100,
           }}
-          animate={{
+          whileInView={{
             opacity: 1,
             x: 0,
           }}
@@ -69,8 +86,13 @@ const LandingPage = () => {
           }}
           className="flex flex-col text-center sm:text-left gap-1"
         >
-          <span className="text-3xl sm:text-7xl dark-gray clash-light"> Clash Of </span>
-          <span className="text-5xl headings sm:text-9xl clash-bold">Models</span>
+          <span className="text-3xl sm:text-7xl dark-gray clash-light">
+            {" "}
+            Clash Of{" "}
+          </span>
+          <span className="text-5xl headings sm:text-9xl clash-bold">
+            Models
+          </span>
         </motion.h1>
 
         <motion.div
@@ -78,29 +100,52 @@ const LandingPage = () => {
             opacity: 0,
             x: -100,
           }}
-          animate={{
+          whileInView={{
             opacity: 1,
             x: 0,
           }}
           transition={{
             duration: 1,
           }}
-          className="bottom-[25vh]  left-24 flex gap-8 text-xl"
+          className="left-24 flex gap-8 text-xl"
         >
-          {/* <h2>Strategize</h2>
+          <h2 className="uppercase">Strategize</h2>
           <ul className=" list-disc flex gap-8">
             <li>
-              <h2>Train</h2>
+              <h2 className="uppercase">Train</h2>
             </li>
             <li>
-              <h2>Race</h2>
+              <h2 className="uppercase">Race</h2>
             </li>
-          </ul> */}
+          </ul>
 
-          <p className="tagline text-md mt-[-2.5rem]">Strategize - Train - Race</p>
-
-          <a className="text-white bg-purple-800 absolute mt-4 cursor-pointer py-2 px-6 uppercase satoshi text-base hover:bg-purple-700">Register Now</a>
+          {/* <p className="tagline text-md mt-[-2.5rem]">Strategize - Train - Race</p> */}
         </motion.div>
+        <motion.div
+          initial={{
+            opacity: 0,
+            x: -100,
+          }}
+          whileInView={{
+            opacity: 1,
+            x: 0,
+          }}
+          transition={{
+            duration: 1,
+          }}
+          className="flex text-center mt-3 gap-2 text-lg"
+        >
+          <img src="./loc.svg" className="h-7 w-7 " alt="" />
+          <span>15th April, 2023 - KIIT UNIVERSITY</span>
+        </motion.div>
+        <motion.button
+        variants={btn}
+        initial="hidden"
+        whileInView="visible"
+        whileHover="hover"
+        className="text-white bg-purple-800 relative z-10 mt-4 cursor-pointer py-2 px-6 uppercase satoshi rounded-lg  text-sm hover:bg-purple-700">
+          Register Now
+        </motion.button>
       </div>
 
       <motion.div
@@ -108,7 +153,7 @@ const LandingPage = () => {
           opacity: 0,
           scale: 0,
         }}
-        animate={{
+        whileInView={{
           opacity: 1,
           scale: 1,
         }}

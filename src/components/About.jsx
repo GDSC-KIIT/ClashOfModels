@@ -13,14 +13,14 @@ const About = () => {
       transition: {
         type: 'spring',
         duration: 1.8,
-        delay: 0.5,
+        delay: 0.3,
       },
     },
   });
   return (
     <div
-      className="h-fit sm:h-screen w-full pt-24 sm:pt-0 flex flex-col sm:flex-row relative pb-10 justify-around items-center px-7 gap-24 abt"
-      style={{ background: "radial-gradient(circle, #030302,  #141401)" }}
+      className="h-fit bg sm:h-screen w-full pt-24 sm:pt-0 flex flex-col sm:flex-row relative pb-10 justify-around items-center px-7 gap-24 abt"
+
     >
       <motion.img 
         variants={slideIn('left')}

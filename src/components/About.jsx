@@ -25,7 +25,8 @@ const About = () => {
       <motion.img
         variants={slideIn("left")}
         initial="hidden"
-        animate="show"
+        whileInView="show"
+        viewport={{once:true}}
         src="./aboutpic1.svg"
         className=" h-[35vw] w-[35vw]"
         alt="rewards logo"
@@ -33,7 +34,8 @@ const About = () => {
       <motion.p
         variants={slideIn("right")}
         initial="hidden"
-        animate="show"
+        whileInView="show"
+        viewport={{once:true}}
         className="items-center sm:items-start text-center sm:text-left flex flex-col gap-1"
       >
         <span className="text-white text-3xl satoshi">What is </span>

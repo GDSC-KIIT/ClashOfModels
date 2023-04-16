@@ -14,7 +14,7 @@ const Timeline = () => {
           y: -10,
           opacity: 0,
         }}
-        animate={{
+        whileInView={{
           y: 0,
           opacity: 1,
         }}
@@ -23,6 +23,7 @@ const Timeline = () => {
           type: "spring",
           delay: 0.5,
         }}
+        viewport={{once:true}}
         className="headings clash-bold headings text-center mt-10 tracking-[3px]"
       >
         Timeline

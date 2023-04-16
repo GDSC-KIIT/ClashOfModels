@@ -1,14 +1,30 @@
 import React from "react";
 import { DisclosureComponent } from "./faqDisclose";
+import { motion } from "framer-motion";
 
 export const FAQ = () => {
   return (
     <div
     id="faq"
     className="px-4 md:px-[20vw] bg">
-      <h1 className="text-center text-glow text-[32px] leading-none md:text-6xl mx-auto text-white pb-8 headings clash-bold">
+      <motion.h1
+      initial={{
+        y: -10,
+        opacity: 0,
+      }}
+      viewport={{once:true}}
+      whileInView={{
+        y: 0,
+        opacity: 1,
+      }}
+      transition={{
+        duration: 1,
+        type: "spring",
+        delay: 0.5,
+      }}
+      className="text-center text-glow text-[32px] leading-none md:text-6xl mx-auto text-white pb-8 headings clash-bold">
         Any Questions?
-      </h1>
+      </motion.h1>
       <div className=" rounded-2xl transition-all delay-100 ease-in pt-6 pb-24">
         <DisclosureComponent
           heading={"I do not know about AI, can I still participate?"}

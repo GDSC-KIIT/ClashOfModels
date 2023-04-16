@@ -30,7 +30,8 @@ const Sponsor = () => {
           y: -10,
           opacity: 0,
         }}
-        animate={{
+        viewport={{once:true}}
+        whileInView={{
           y: 0,
           opacity: 1,
         }}

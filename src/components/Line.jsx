@@ -20,7 +20,7 @@ const Line = ({ time, desc }) => {
     >
       <div className="w-[40vw] mt-2 text-right pr-5 ">{time}</div>
       <div className="flex flex-col items-center gap-2 w-[20vw]] mt-2    ">
-        <div className="bg-white h-6 w-6 rounded-full" />
+        <div className="bg-[#FABB03] h-6 w-6 rounded-full" />
         <div className="h-16 w-[0.1rem] bg-white"></div>
       </div>
       <div className="w-[40vw] mt-2 pl-5">{desc}</div>

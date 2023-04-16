@@ -2,7 +2,7 @@ import React from 'react'
 
 const TimeElements = (params) => {
   return (
-    <div className='flex flex-col text-white clash-light'>
+    <div className='flex flex-col text-white satoshi'>
         <span>
             {params.time}
         </span>

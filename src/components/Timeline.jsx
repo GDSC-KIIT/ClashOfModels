@@ -14,7 +14,7 @@ const Timeline = () => {
           y: -10,
           opacity: 0,
         }}
-        whileInView={{
+        animate={{
           y: 0,
           opacity: 1,
         }}
@@ -23,7 +23,7 @@ const Timeline = () => {
           type: "spring",
           delay: 0.5,
         }}
-        className="headings satoshi text-center mt-10 tracking-[3px]"
+        className="headings clash-bold headings text-center mt-10 tracking-[3px]"
       >
         Timeline
       </motion.h2>

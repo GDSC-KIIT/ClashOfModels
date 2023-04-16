@@ -67,9 +67,9 @@ const LandingPage = () => {
           }}
           className="flex flex-col sm:flex-row items-center sm:gap-5 sm:mb-10"
         >
-          <img src="./gdsc.svg" alt="" className="h-5 w-auto" />
+          <img src="./gdsc.svg" alt="gdsc-kiit" className="h-5 w-auto" />
           <img src="./x.png" alt="x" className="h-3" />
-          <img src="./senseback.svg" alt="" className="h-5 w-auto" />
+          <img src="./senseback.svg" alt="sensebackai" className="h-5 w-auto" />
         </motion.div>
 
         <motion.h1
@@ -136,7 +136,7 @@ const LandingPage = () => {
           className="flex text-center mt-3 gap-2 text-lg"
         >
           <div className="flex items-center gap-2">
-            <img src="./loc.svg" className="h-4 w-4 " alt="" />
+            <img src="./loc.svg" className="h-4 w-4 " alt="locationKIIT" />
             <span className="satoshi text-base">
               22nd April, 2023 - KIIT UNIVERSITY
             </span>

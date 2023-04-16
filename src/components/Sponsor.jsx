@@ -39,7 +39,7 @@ const Sponsor = () => {
           type: "spring",
           delay: 0.5,
         }}
-        className="clash-bold headings mb-16 md:mb-0 text-md"
+        className="clash-bold headings mb-16 md:mb-0 text-md text-center"
       >
         Our Sponsors
       </motion.h2>

@@ -6,7 +6,7 @@ export const FAQ = () => {
     <div
     id="faq"
     className="px-4 md:px-[20vw] bg">
-      <h1 className="text-center text-glow text-[1.2rem] leading-none md:text-6xl max-w-[15ch] mx-auto font-semibold text-white pb-8 headings clash-bold">
+      <h1 className="text-center text-glow text-[32px] leading-none md:text-6xl mx-auto text-white pb-8 headings clash-bold">
         Any Questions?
       </h1>
       <div className=" rounded-2xl transition-all delay-100 ease-in pt-6 pb-24">

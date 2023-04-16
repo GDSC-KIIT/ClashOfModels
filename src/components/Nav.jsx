@@ -19,7 +19,7 @@ const Nav = () => {
     >
       <ul className="sm:flex justify-center gap-10 hidden text-[16px] mori">
         <div className="sm:h-32 sm:w-32 md:w-[7rem] absolute sm:left-16 md:left-9">
-          <img src="./clashlogo.svg" alt="" className="" />
+          <img src="./clashlogo.svg" alt="clashofmodels" className="" />
         </div>
         <a href="#about">
           <li className="cursor-pointer relative z-10 opacity-70 hover:opacity-100">

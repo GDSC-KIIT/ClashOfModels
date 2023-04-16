@@ -138,7 +138,7 @@ const LandingPage = () => {
           <div className="flex items-center gap-2">
             <img src="./loc.svg" className="h-4 w-4 " alt="" />
             <span className="satoshi text-base">
-              15th April, 2023 - KIIT UNIVERSITY
+              22nd April, 2023 - KIIT UNIVERSITY
             </span>
           </div>
         </motion.div>

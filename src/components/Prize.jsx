@@ -14,7 +14,7 @@ const Prizes = () => {
           y: -10,
           opacity: 0,
         }}
-        whileInView={{
+        animate={{
           y: 0,
           opacity: 1,
         }}

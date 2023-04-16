@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Nav = () => {
   return (
-    <motion.Nav
+    <motion.nav
       initial={{
         y: -20,
         opacity: 0,
@@ -52,7 +52,7 @@ const Nav = () => {
           </li>
         </a>
       </ul>
-    </motion.Nav>
+    </motion.nav>
   );
 };
 

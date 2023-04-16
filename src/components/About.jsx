@@ -25,15 +25,15 @@ const About = () => {
       <motion.img
         variants={slideIn("left")}
         initial="hidden"
-        whileInView="show"
+        animate="show"
         src="./aboutpic1.svg"
         className=" h-[35vw] w-[35vw]"
-        alt=""
+        alt="rewards logo"
       />
       <motion.p
         variants={slideIn("right")}
         initial="hidden"
-        whileInView="show"
+        animate="show"
         className="items-center sm:items-start text-center sm:text-left flex flex-col gap-1"
       >
         <span className="text-white text-3xl satoshi">What is </span>

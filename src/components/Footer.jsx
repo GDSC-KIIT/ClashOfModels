@@ -1,15 +1,9 @@
 import React, { useEffect, useState } from "react";
-import logo from '../../public/clashlogo.svg';
-import gdsc from '../../public/gdsclogo.svg'
-import lnkd from '../../public/socials/linkd.svg';
-import insta from '../../public/socials/insta.svg';
-import github from '../../public/socials/github.svg';
-import medium from '../../public/socials/medium.svg';
 import { motion } from "framer-motion";
 
 const Footer=()=>{
     return(
-        <div className="py-4" style={{ background: "radial-gradient(circle, #FFD969, #FABB03)" }}>
+        <div className="py-4 bg">
 
         <motion.div
         initial={{
@@ -24,12 +18,12 @@ const Footer=()=>{
         transition={{
             duration: 1,
         }}
-        className="py-4" style={{ background: "radial-gradient(circle, #FFD969, #FABB03)" }}>
+        className="py-6" style={{ background: "radial-gradient(circle, #FFD969, #FABB03)" }}>
             <div className="top flex justify-between items-center gap-10 w-full px-10">
-                <img src={logo} alt="reward logo" className="md:w-[12rem] w-[8rem]"/>
+                <img src='./clashlogo.svg' alt="reward logo" className="md:w-[12rem] w-[8rem]"/>
                 <div>
                     <p>powered by</p>
-                    <img src={gdsc} alt="gdsc" className="h-[1.5rem] mt-2"/>
+                    <img src='./gdsclogo.svg' alt="gdsc" className="h-[1.5rem] mt-2"/>
                 </div>
             </div>
           
@@ -37,16 +31,16 @@ const Footer=()=>{
                 <p className="text-xs">© 2022 GDSC KIIT. All Rights Reserved.</p>
                 <div className="flex gap-6">
                     <a href="https://www.linkedin.com/company/gdsckiit/">
-                        <img src={lnkd} alt="linkedin" />
+                        <img src='./socials/linkd.svg' alt="linkedin" />
                     </a>
                     <a href="https://www.instagram.com/gdsckiit/">
-                        <img src={insta} alt="insta" />
+                        <img src='./socials/insta.svg' alt="insta" />
                     </a>
                     <a href="https://github.com/GDSC-KIIT">
-                        <img src={github} alt="github" />
+                        <img src='./socials/github.svg' alt="github" />
                     </a>
                     <a href="https://medium.com/dsckiit">
-                        <img src={medium} alt="medium" />
+                        <img src='./socials/medium.svg' alt="medium" />
                     </a>
                     
                 </div>

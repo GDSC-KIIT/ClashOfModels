@@ -8,7 +8,7 @@ export const DisclosureComponent = ({ heading, children }) => {
       {({ open }) => (
         <>
           <Disclosure.Button className="flex w-full justify-between rounded-lg  px-4 mt-6 text-left text-sm font-medium text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-            <div className="text-xl sm:text-2xl font-Mori text-glow">
+            <div className="text-xl sm:text-2xl font-Mori text-glow satoshi">
               {heading}
             </div>
             <div>

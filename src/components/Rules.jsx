@@ -25,7 +25,7 @@ export const Rules = () => {
         Rules
       </motion.h1>
       <div className="mx-4 md:my-12">
-        <ul className="pl-10 pb-20 pt-10 text-xl pr-5 xs:leading-3 font-Mori list-disc flex flex-col gap-8 max-w-3xl mx-auto leading-7 text-white/80">
+        <ul className="pl-10 pb-20 pt-10 text-xl pr-5 xs:leading-3 text-glow font-Mori list-disc flex flex-col gap-8 max-w-3xl mx-auto leading-7 text-white/80">
           <li>Participants are requested to show up at the venue on time.</li>
           <li>
           The session will start at 10AM, after which we will not be responsible for bringing any participants up to speed.

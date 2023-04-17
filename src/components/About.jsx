@@ -22,25 +22,21 @@ const About = () => {
       id="about"
       className="h-fit bg sm:h-screen w-full pt-24 sm:pt-0 flex flex-col sm:flex-row relative pb-10 justify-around items-center px-7 gap-24 abt"
     >
-      <motion.img
-        variants={slideIn("left")}
-        initial="hidden"
-        whileInView="show"
-        viewport={{once:true}}
+      <img
         src="./aboutpic1.svg"
         className=" h-[35vw] w-[35vw]"
         alt="rewards logo"
       />
-      <motion.p
-        variants={slideIn("right")}
-        initial="hidden"
-        whileInView="show"
-        viewport={{once:true}}
+      <p
+        // variants={slideIn("right")}
+        // initial="hidden"
+        // whileInView="show"
+        // viewport={{once:true}}
         className="items-center sm:items-start text-center sm:text-left flex flex-col gap-1"
       >
         <span className="text-white text-3xl satoshi">What is </span>
         <h2 className="headings satoshi mt-[-20px]">Clash of Models?</h2>
-        <p className="text-white mori">
+        <p className="text-white mori text-glow">
           GDSC KIIT presents to you it’s newest event: ‘Clash of Models’. Made
           for absolute beginners, it focuses on building the intuition required
           for AI/ML and how to use that moving forward.
@@ -51,7 +47,7 @@ const About = () => {
           to race and win against your competitors. Don’t miss this chance to
           win exciting prizes and learn cool tech! (naukri chahiye? AI padho)
         </p>
-      </motion.p>
+      </p>
     </div>
   );
 };

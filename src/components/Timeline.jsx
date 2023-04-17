@@ -29,8 +29,8 @@ const Timeline = () => {
         Timeline
       </motion.h2>
       <div className="w-fit text-lg">
-        <Line time="10:00 AM" desc="Introducing Clash of Models" />
-        <Line time="11:00 AM" desc="Breaking Down AI and Reinforcement Learning" />
+        <Line time="11:00 AM" desc="Introducing Clash of Models" />
+        <Line time="11:30 AM" desc="AI and Reinforcement Learning" />
         <Line time="12:30 PM" desc="Diving into rewards.ai" />
         <Line time="2:00 PM" desc="FAQs and Lunch Break" />
         <Line time="3:00 PM" desc="Get! Set! Ready? RACE!" />

@@ -27,6 +27,17 @@ export const FAQ = () => {
       </motion.h1>
       <div className=" rounded-2xl transition-all delay-100 ease-in pt-6 pb-24">
         <DisclosureComponent
+          heading={"What exactly is rewards.ai?"}
+        >
+          <p>
+            Our tech genies, Anindyadeep Sannigrahi and Pratyush Patnaik, have come up with a low code platform called "rewards.ai" to help newbies experiment with Reinforcement Learning. The product is our original SDK, which allows users to go one
+            step further in customising their models using our Python library.
+            In the Rewards Platform, users do not have to worry about
+            programming anything, and can put focus completely on building their
+            model. This platform is an original creation and we are super excited for its debut on 22nd. And, we hope that you guys will be there for it!
+          </p>
+        </DisclosureComponent>
+        <DisclosureComponent
           heading={"I do not know about AI, can I still participate?"}
         >
           <p>
@@ -37,34 +48,20 @@ export const FAQ = () => {
         </DisclosureComponent>
         <DisclosureComponent heading={"What will be the overall timings"}>
           <p>
-            There will be a brief session from 10AM which will help you grasp
+            There will be a brief session from 11AM which will help you grasp
             the fundamentals of AI, following which, we will have a
             mini-hackathon. The event is likely to end by 5PM
           </p>
         </DisclosureComponent>
         <DisclosureComponent heading={"How do I register?"}>
           <p>
-            The registrations will be on our community page, the link for which
-            will be provided shortly
+            The registrations will be on our community page. You can reach it by clicking the above button.
           </p>
         </DisclosureComponent>
         <DisclosureComponent heading={"Is there a fee or is the event free?"}>
           <p>
             There is absolutely no fee for registering and participating. All we
             want is for people to come and enjoy while learning something new.
-          </p>
-        </DisclosureComponent>
-        <DisclosureComponent heading={"What is Rewards AI?"}>
-          <p>
-            Rewards AI is a low-code artificial intelligence platform developed
-            at GDSC KIIT, which currently has two products for reinforcement
-            learning. The first product is our SDK, which allows users to go one
-            step further in customising their models using our python library.
-            In the Rewards Platform, users do not have to worry about
-            programming anything, and can put focus completely on building their
-            model. Rewards AI is a low-code artificial intelligence platform
-            developed at GDSC KIIT, which currently has two products for
-            reinforcement learning
           </p>
         </DisclosureComponent>
         <DisclosureComponent

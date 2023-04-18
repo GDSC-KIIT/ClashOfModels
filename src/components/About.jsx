@@ -37,7 +37,7 @@ const About = () => {
         <span className="text-white text-3xl satoshi">What is </span>
         <h2 className="headings satoshi mt-[-20px]">Clash of Models?</h2>
         <p className="text-white mori text-glow">
-          GDSC KIIT presents to you it’s newest event: ‘Clash of Models’. Made
+          GDSC KIIT presents to you its newest event: <span className="text-amber-400">‘Clash of Models’</span>. Made
           for absolute beginners, it focuses on building the intuition required
           for AI/ML and how to use that moving forward.
         </p>
@@ -45,7 +45,7 @@ const About = () => {
         <p className="text-white mori">
           Learn the basic of AI and Neural Networks and train your AI model car
           to race and win against your competitors. Don’t miss this chance to
-          win exciting prizes and learn cool tech! (naukri chahiye? AI padho)
+          win exciting prizes and learn cool tech! <i>(naukri chahiye? AI padho)</i>
         </p>
       </p>
     </div>

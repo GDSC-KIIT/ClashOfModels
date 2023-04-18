@@ -34,7 +34,7 @@ export const Rules = () => {
           Participants are allowed to form teams of at max 3 people during the competition. 
           </li>
           <li>
-          Participants have to fill out a google form to let us know which participants are participating as a team and which participants are participating as a team.
+          Participants have to fill out a google form to let us know which participants are participating as a team.
           </li>
         </ul>
       </div>

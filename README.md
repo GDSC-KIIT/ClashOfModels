@@ -1,4 +1,4 @@
-# ClashOfModels
+# [ClashOfModels](https://clash-of-models.netlify.app/)
 
 *Date: 22 April, 2023*
 <br>*Venue: KIIT University*
